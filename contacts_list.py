@@ -7,8 +7,18 @@ invitados_mario= ["luis", "Antoine", "Estelle", "Olivier", "Alex", "Romain", "Ka
 
 contacto = input("Cual es tu nombre, por favor ? ")
 
-if contacto in invitados_mario:
-    print("Hola!, pasa por favor ")
+if contacto == "Katia" :
+    print("Hola chata !, pasa por favor ")
+    input("Cual es tu nombre, por favor ? ")
+elif contacto == "Antoine" :
+    print("Hola Pollito !, pasa por favor ")
+    input("Cual es tu nombre, por favor ? ")
+elif contacto == "Estelle" :
+    print("Coucou Estelle !, pasa por favor ")
+    input("Cual es tu nombre, por favor ? ")
+elif contacto == "Olivier" :
+    print("Hola Oliv !, pasa por favor ")
+    input("Cual es tu nombre, por favor ? ")
 else:
     print("No estas en la lista ! " )
-
+    input("Cual es tu nombre, por favor ? ")
